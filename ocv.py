@@ -22,7 +22,7 @@ from av import VideoFrame
 
 ROOT = os.path.dirname(__file__)
 
-VIDEO_CLOCK_RATE = 10000
+VIDEO_CLOCK_RATE = 90000
 VIDEO_PTIME = 1 / 30  # 1/fps
 VIDEO_TIME_BASE = fractions.Fraction(1, VIDEO_CLOCK_RATE)
 
